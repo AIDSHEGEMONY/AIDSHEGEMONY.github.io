@@ -1,0 +1,63 @@
+   body{
+    background-color: #ff9933; /* Цвет фона веб-страницы */
+    max-width: 800px;	
+	width:80%;
+    margin-left:auto;
+    margin-right:auto;	
+   } 
+   A {
+    color: white; /* Цвет ссылок */
+	font-family: courier new,courier,monospace;
+	background-color:  #000000; /* Цвет фона под заголовком */
+   }
+   A:visited {
+    color: white /* Цвет посещенных ссылок */
+	font-family: courier new,courier,monospace;
+	background-color:  #000000; /* Цвет фона под заголовком */
+   }
+   A:active {
+    color: white; /* Цвет активных ссылок */
+	font-family: courier new,courier,monospace;
+	background-color:  #000000; /* Цвет фона под заголовком */
+   }   
+   h1 {
+    background-color:  #000000; /* Цвет фона под заголовком */
+    color: white; /* Цвет текста */	
+	font-family: courier new,courier,monospace;
+   }
+   h2 {
+    color: black; /* Цвет текста */	
+	font-family: courier new,courier,monospace;
+   }   
+   p {
+    background-color:  #000000; /* Цвет фона под текстом параграфа */
+    color: white; /* Цвет текста */
+	font-family: courier new,courier,monospace;
+   }
+   li {
+    color: black; /* Цвет маркеров */
+   }
+   li span {
+    background-color:  #000000; /* Цвет фона под текстом параграфа */
+    color: white; /* Цвет текста */
+   }
+	div.img {
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: left;
+		width: 180px;
+	}
+
+	div.img:hover {
+		border: 1px solid #777;
+	}
+
+	div.img img {
+		width: 100%;
+		height: auto;
+	}
+
+	div.desc {
+		padding: 15px;
+		text-align: center;
+}     
